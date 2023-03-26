@@ -16,7 +16,7 @@ self.addEventListener('install', function (event) {
             .then(function (cache) {
                 cache.addAll([
                     '/',
-                    '/musicApp.html',
+                    '/index.html',
                     '/js/musicApp.js',
                     '/css/main.css'
 

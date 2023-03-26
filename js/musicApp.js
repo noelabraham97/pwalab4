@@ -26,6 +26,7 @@ if ("Notification" in window && "serviceWorker" in navigator) {
 // event listener for add button
 document.getElementById("add").addEventListener("click", addData);
 function addData() {
+  console.log("add button clicked");
   var text1 = document.getElementById("titleName").value;
   var text2 = document.getElementById("artistName").value;
 
