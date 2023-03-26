@@ -60,7 +60,7 @@ self.addEventListener('notificationclick', function (event) {
 
         case '':
             console.log('Clicked on the notification.');
-            const openPromise = clients.openWindow('/pages/add/');
+            const openPromise = clients.openWindow('/index.html');
             event.waitUntil(openPromise);
             break;
     }
