@@ -58,7 +58,7 @@ function addData() {
 //Registering the service worker
 console.log('Navigator', navigator);
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('/service-worker.js', { scope: '/' })
+  navigator.serviceWorker.register('./service-worker.js', { scope: '/pwalab4/' })
     .then(function (reg) {
       console.log('Service Worker Registered', reg);
     })
