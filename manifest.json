@@ -1,0 +1,26 @@
+{
+    "short_name": "Music App",
+    "name": "Music App",
+    "description": "An app to save your daily playlists.",
+    "start_url": "/",
+    "scope": ".",
+    "id": "/",
+    "theme_color": "#6ea1cb",
+    "background_color": "white",
+    "orientation": "portrait",
+    "display": "standalone",
+    "icons": [
+      {
+          "src": "/icons/android-chrome-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "maskable"
+      },
+      {
+          "src": "/icons/android-chrome-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any"
+      }
+  ]
+  }

@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.header{
+    background-color: grey;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+span{
+    color: red;
+}
+.img-class{
+    height: 40px;
+    width: 40px;
+
+}
+
+h2{
+    padding: 15px;
+   
+}
+
+.headingNewSong h3{
+    padding: 10px 5px;
+    text-align: center;
+
+}
+.top-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+hr{
+    border: 0;
+    clear: both;
+    display: flex;
+    margin: 0 auto;
+    width: 96%;
+    background-color: grey;
+    height: 1px;
+}
+
+form{
+    padding: 10px;
+    height: 300px;
+}
+
+div{
+    display: block;
+}
+
+.form-input-div{
+    display:flex;
+    align-items: center;
+}
+
+.form-input-div > label{
+    font-size: 14px;
+    flex-basis: 30%;
+    font-weight: bold;
+}
+
+input,textarea,select{
+    display: block;
+    padding-left: 2px;
+    margin: 5px 10px;
+}
+
+.add-button{
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+    background-color: #0d406b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+.li-element{color: white;
+    background-color: #0d406b;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.btn-div{
+    display: flex;
+   
+    align-items: center;
+    margin-top: 10px;
+}
+.title{
+   font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-left: 10px;
+    color: #e8cc2f;
+}
+
+.artist{
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 10px 0;
+    margin-left: 10px;
+}
+.delete-btn{
+    background-color: #cb1c1c;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 4px 12px;
+    cursor: pointer;
+    
+}
+.like-count{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e8cc2f;
+}
+.like-btn{
+    background-color: #1ccb1c;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+.alert{
+  
+    color: #e57070;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+
+}
+@media only screen and (min-width: 800px) {
+
+    .container{
+        width: 30%;
+        margin:  auto;
+        padding: 80px;
+        
+        background-color: #e57070;
+        box-shadow: 0px 8px 10px rgba(0,0,0.221);
+        border-radius: 10px; 
+  }
+}
