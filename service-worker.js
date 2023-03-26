@@ -15,10 +15,10 @@ self.addEventListener('install', function (event) {
         caches.open('cache')
             .then(function (cache) {
                 cache.addAll([
-                    '/',
-                    '/index.html',
-                    '/js/musicApp.js',
-                    '/css/main.css'
+                    'https://noelabraham97.github.io/pwalab4/',
+                    'https://noelabraham97.github.io/pwalab4/index.html',
+                    'https://noelabraham97.github.io/pwalab4/js/musicApp.js',
+                    'https://noelabraham97.github.io/pwalab4/css/main.css'
 
                 ]);
             })
